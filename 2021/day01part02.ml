@@ -4,7 +4,7 @@ let fold (count, prev) next =
   | [ a; b; c ] ->
       if b + c + next > a + b + c then (count + 1, [ b; c; next ])
       else (count, [ b; c; next ])
-  | l -> (count, List.cons next l)
+  | list -> (count, List.cons next list)
 
 let print (answer, _) = print_endline (string_of_int answer)
 

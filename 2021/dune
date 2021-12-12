@@ -1,2 +1,2 @@
 (executables
- (names day01part01 day01part02))
+ (names day01part01 day01part02 day02part01 day02part02))
